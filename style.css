@@ -1,3 +1,27 @@
 body {
-  background-color: #000;
+  text-align: center;
 }
+
+.btn {
+  padding: 10px 25px;
+  font-size: 20px;
+  color: #fff;
+  background-color:blueviolet;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(137, 43, 226, 0.767) ;
+}
+
+.btn:active {
+  background-color: rgba(117, 21, 206, 0.452) ;
+}
+
+/* .btn:pressed { // No existe :pressed
+  background-color: #fff;
+  border: 2px solid blueviolet;
+  color: blueviolet;
+} */
