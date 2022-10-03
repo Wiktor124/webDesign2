@@ -1,83 +1,9 @@
-body {
-  margin: 0;
-  padding: 0;
+.boxs {
+  position: absolute;
+  width: 200px;
+  height: 200px;
 }
 
-<<<<<<< HEAD
-.container {
-  display: grid;
-  height: 100vh;
-  gap: 15px;
-  grid-template-rows: 1fr 0.7fr 0.7fr 1.5fr 1.5fr 1.5fr 1fr;
-}
-
-header { background-color: #a81825; }
-
-nav { background-color: #ce5065; }
-
-section { background-color: #a81825; }
-
-footer { background-color: #eeb1c0; }
-
-@media (min-width: 768px) {
-  .container {
-    padding: 0 10px;
-    grid-template-rows: 100px 80px 80px 150px 150px 150px auto;
-  }
-  
-  footer {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: unset;
-  }
-
-  footer div {
-    height: 100px;
-    background-color: #eeb1c0;
-  }
-}
-
-@media (min-width: 960px) {
-  .container {
-    gap: 10px;
-    padding: 0 30px;
-    max-width: 1244px;
-    grid-template:
-      "header     header        header        header        header        header"     3.5fr
-      "nav1       nav1          nav1          nav2          nav2          nav2"     1.5fr
-      "section1   section1      section2      section2      section3      section3"  2fr
-      "footer     footer        footer        footer        footer        footer"    3fr;
-  }
-
-  header { grid-area: header; }
-
-  nav { margin: 20px 0; }
-
-  section { margin-bottom: 20px;  }
-
-  .nav1 { grid-area: nav1; }
-
-  .nav2 { grid-area: nav2; }
-
-  .section1 { grid-area: section1; }
-
-  .section2 { grid-area: section2; }
-
-  .section3 { grid-area: section3; }
-
-  footer {
-    grid-area: footer;
-    grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 50px;
-  }
-
-  footer div {
-    height: 100%;
-    background-color: #eeb2c6;
-  }
-}
-=======
 .boxs:nth-child(1) {
   z-index: 1;
   margin: 5px 0 0 10px;
@@ -95,4 +21,3 @@ footer { background-color: #eeb1c0; }
   margin: 175px 0 0 80px;
   background-color: rgb(13, 196, 13);
 }
->>>>>>> main
