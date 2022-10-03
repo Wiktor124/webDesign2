@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
 .container {
   display: grid;
   height: 100vh;
@@ -76,3 +77,22 @@ footer { background-color: #eeb1c0; }
     background-color: #eeb2c6;
   }
 }
+=======
+.boxs:nth-child(1) {
+  z-index: 1;
+  margin: 5px 0 0 10px;
+  background-color: orange;
+}
+
+.boxs:nth-child(2) {
+  z-index: 2;
+  margin: 100px 0 0 50px;
+  background-color: aquamarine;
+}
+
+.boxs:nth-child(3){
+  z-index: 3;
+  margin: 175px 0 0 80px;
+  background-color: rgb(13, 196, 13);
+}
+>>>>>>> main
