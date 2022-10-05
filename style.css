@@ -43,8 +43,8 @@ footer { background-color: #eeb1c0; }
     padding: 0 30px;
     max-width: 1244px;
     grid-template:
-      "header     header        header        header        header        header"     3.5fr
-      "nav1       nav1          nav1          nav2          nav2          nav2"     1.5fr
+      "header     header        header        header        header        header"    3.5fr
+      "nav1       nav1          nav1          nav2          nav2          nav2"      1.5fr
       "section1   section1      section2      section2      section3      section3"  2fr
       "footer     footer        footer        footer        footer        footer"    3fr;
   }
